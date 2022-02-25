@@ -41,7 +41,7 @@ public class Box {
 
     private void setHeight(double height) {
         if (height <= 0) {
-            throw new IllegalArgumentException("Width cannot be zero or negative.");
+            throw new IllegalArgumentException("Height cannot be zero or negative.");
         }
         this.height = height;
     }
