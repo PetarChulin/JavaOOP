@@ -10,6 +10,6 @@ public class Main {
 
         Ferrari driver = new Ferrari(driverName);
 
-        System.out.println(driver.toString());
+        System.out.println(driver);
     }
 }
