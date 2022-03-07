@@ -2,9 +2,6 @@ package P03PolymorphismLabAnimals;
 
 public class Dog extends Animal {
 
-    public String name;
-    public String favouriteFood;
-
     public Dog(String name, String favouriteFood) {
         super(name, favouriteFood);
     }
