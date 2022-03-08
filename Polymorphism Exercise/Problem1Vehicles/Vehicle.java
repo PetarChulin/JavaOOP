@@ -4,9 +4,7 @@ public abstract class Vehicle {
 
     private Double fuelQuantity;
     private Double fuelConsumption;
-    private Integer distance;
-
-
+    
     public Vehicle(Double fuelQuantity, Double fuelConsumption) {
         this.fuelQuantity = fuelQuantity;
         this.fuelConsumption = fuelConsumption;
