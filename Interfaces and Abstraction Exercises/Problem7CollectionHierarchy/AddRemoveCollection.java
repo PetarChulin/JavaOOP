@@ -1,11 +1,6 @@
 package Problem7CollectionHierarchy;
 
-
-
 public class AddRemoveCollection extends Collection implements AddRemovable {
-
-
-
 
     @Override
     public String remove() {
