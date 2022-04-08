@@ -19,7 +19,7 @@ public class MissionImpl implements Mission {
                 explorer.search();
                 String actual = exhibits.iterator().next();
                 explorer.getSuitcase().getExhibits().add(actual);
-                exhibits.remove(actual);
+                exhibits.remove(actual)
             }
         }
     }
